@@ -1,0 +1,10 @@
+server:
+  port: 1003
+spring:
+  application:
+    name: portal-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
