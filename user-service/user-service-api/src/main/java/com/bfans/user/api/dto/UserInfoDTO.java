@@ -17,4 +17,6 @@ public class UserInfoDTO {
 
     private String code;
 
+    private String describe;
+
 }
