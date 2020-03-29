@@ -17,3 +17,10 @@ feign:
 ribbon:
   ReadTimeout: 30000
   ConnectTimeout: 30000
+
+# zuul
+zuul:
+  routes:
+    user:
+      path: /api-user/**
+      service-id: user-service
