@@ -17,6 +17,11 @@ public class UserApiImpl implements IUserApi {
 
     @Override
     public UserInfoDTO getById(Long id) {
+        try {
+            Thread.sleep(60 * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return UserInfoDTO.builder().id(id).code("admin").name("admin")
                 .describe(String.format("request from port: %s", port))
                 .build();
