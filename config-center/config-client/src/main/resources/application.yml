@@ -1,0 +1,19 @@
+spring:
+#  rabbitmq:
+#    host: 118.89.39.210
+#    port: 5672
+#    username: guest
+#    password: guest
+
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+# \u66B4\u9732\u6240\u6709\u7AEF\u70B9\uFF0C\u9ED8\u8BA4\u662Finfo\u548Chealth
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

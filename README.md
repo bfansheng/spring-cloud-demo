@@ -3,3 +3,4 @@
 2. 负载均衡（ribbon）
 3. 熔断器（hystrix）
 4. 路由（zuul）
+5. 消息总线（spring cloud bus）
