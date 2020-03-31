@@ -1,9 +1,9 @@
 spring:
-#  rabbitmq:
-#    host: 118.89.39.210
-#    port: 5672
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: 118.89.39.210
+    port: 5672
+    username: guest
+    password: guest
 
   cloud:
     bus:
