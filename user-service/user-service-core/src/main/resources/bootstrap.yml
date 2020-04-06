@@ -1,0 +1,18 @@
+server:
+  port: 1001
+spring:
+  application:
+    name: user-service
+# nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.31.49:8848
+        namespace: 44316dc5-e3b6-4e9c-9be7-62b2d49b2db1
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:1000/eureka/
+
+
